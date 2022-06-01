@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------------------------------
+--------Home Page Hero Start--------
+----------------------------------*/
+
+.HomePage__hero{
+    background-color: rgb(0, 0, 0);
+}
+
+nav{
+    padding:  1em 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+
+.navbar a{
+    font-size: 50px;
+    font-style:inherit;
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav__items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__items li{
+    list-style: none;
+    color: wheat;
+    margin-right: 30px;
+}
+
+
+
+/** ---------------------------------
+--------- Responsive Style** ---------
+--------- ( Media Query ) ----------
+----------------------------------**/
+
+/* Home Page Hero */
+
+
+
+
+
+
+
+
+
+
+
