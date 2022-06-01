@@ -32,15 +32,27 @@ nav{
 
 .nav__items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; 
 }
 
 .nav__items li{
     list-style: none;
     color: wheat;
-    margin-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
+.nav__items li:hover{
+    background-color: wheat;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
 
 
 
@@ -50,7 +62,65 @@ nav{
 ----------------------------------**/
 
 /* Home Page Hero */
+@media only screen and (max-width:320px) {
+    nav{
+        padding:  .5em;
+        width: 100%;
+        justify-content: center;
+    }
 
+    .navbar a{
+        font-size: 25px;
+        margin-bottom: .2em;
+    }
+
+    .nav__items li{
+        margin: 5px;
+    }
+    
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    nav{
+        padding:  .8em;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar a{
+        margin-bottom: .2em;
+    }
+
+    .nav__items{
+        width: 100%;
+    }
+
+    .nav__items li{
+        margin: 5px;
+    }
+    
+}
+
+@media screen and (min-width:376px) and (max-width:425px) {
+    nav{
+        padding:  .8em;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar a{
+        margin-bottom: .2em;
+    }
+
+    .nav__items{
+        width: 100%;
+    }
+
+    .nav__items li{
+        margin: 5px;
+    }
+    
+}
 
 
 
